@@ -1,0 +1,90 @@
+/* Container Styling */
+.register-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Header Styling */
+  .register-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Error Message Styling */
+  .error-message {
+    color: red;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  /* Button Styling */
+  .register-button,
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .register-button:hover,
+  .login-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .register-button:active,
+  .login-button:active {
+    transform: scale(0.98);
+  }
+  
+  /* LogIN Button Specific Styling */
+  .login-button {
+    margin-top: 15px;
+    background-color: #28a745; /* Green background for login */
+  }
+  
+  .login-button:hover {
+    background-color: #218838;
+  }
+  
+  .login-button:active {
+    background-color: #1e7e34;
+  }
+  

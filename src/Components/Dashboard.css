@@ -1,0 +1,97 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .dashboard-container {
+    animation: fadeIn 0.8s ease-in-out;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .contacts-list .contact-item {
+    animation: slideIn 0.5s ease-out;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contacts-list .contact-item:not(:first-child) {
+    margin-top: 15px;
+  }
+  .edit-button, .delete-button, .add-contact-button, .update-contact-button {
+    transition: all 0.3s ease-in-out;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .add-contact-button, .update-contact-button {
+    background-color: #007bff;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .edit-button:hover, .delete-button:hover, .add-contact-button:hover, .update-contact-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .edit-button:active, .delete-button:active, .add-contact-button:active, .update-contact-button:active {
+    transform: scale(0.95);
+  }
+  input {
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+  }
+  .edit-contact-section {
+    animation: fadeIn 0.5s ease-in;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+      
